@@ -1,0 +1,492 @@
+{
+  "categories": [
+    {
+      "id": "ardoise",
+      "name": "Ardoise",
+      "slug": "ardoise",
+      "color": "#374151"
+    },
+    {
+      "id": "tuile-plate",
+      "name": "Tuile Plate",
+      "slug": "tuile-plate",
+      "color": "#DC2626"
+    },
+    {
+      "id": "tuile-mecanique",
+      "name": "Tuile Mécanique",
+      "slug": "tuile-mecanique",
+      "color": "#B91C1C"
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "slug": "zinc",
+      "color": "#6B7280"
+    },
+    {
+      "id": "cuivre",
+      "name": "Cuivre",
+      "slug": "cuivre",
+      "color": "#B45309"
+    },
+    {
+      "id": "alu-prefa",
+      "name": "Alu Prefa",
+      "slug": "alu-prefa",
+      "color": "#4B5563"
+    },
+    {
+      "id": "velux",
+      "name": "Velux",
+      "slug": "velux",
+      "color": "#2563EB"
+    },
+    {
+      "id": "isolation",
+      "name": "Isolation",
+      "slug": "isolation",
+      "color": "#059669"
+    },
+    {
+      "id": "epdm",
+      "name": "EPDM",
+      "slug": "epdm",
+      "color": "#1E293B"
+    },
+    {
+      "id": "zinguerie",
+      "name": "Zinguerie",
+      "slug": "zinguerie",
+      "color": "#7C2D12"
+    },
+    {
+      "id": "patrimoine",
+      "name": "Patrimoine",
+      "slug": "patrimoine",
+      "color": "#7C3AED"
+    }
+  ],
+  "projects": [
+    {
+      "id": "refection-toiture-patrimoine-strasbourg",
+      "slug": "refection-toiture-patrimoine-strasbourg",
+      "title": "Réfection de toiture du patrimoine Strasbourgeois",
+      "subtitle": "en plein centre de la grande-île",
+      "location": "Strasbourg",
+      "date": "2024",
+      "category": ["patrimoine", "tuile-plate"],
+      "mainImage": "/realisations/patrimoine-strasbourg/main.jpg",
+      "gallery": [
+        {
+          "id": "1",
+          "url": "/realisations/patrimoine-strasbourg/avant-1.jpg",
+          "alt": "Toiture avant rénovation",
+          "type": "avant",
+          "order": 1
+        },
+        {
+          "id": "2", 
+          "url": "/realisations/patrimoine-strasbourg/apres-1.jpg",
+          "alt": "Toiture après rénovation avec tuiles Saint-Thomas",
+          "type": "apres",
+          "order": 2
+        }
+      ],
+      "description": "Réfection complète d'une toiture de bâtiment historique située dans le secteur sauvegardé de Strasbourg. Ce projet d'envergure a nécessité l'utilisation de tuiles plates Biberschwanz Saint-Thomas 16*38, spécialement conçues pour les monuments historiques. La pose a été réalisée dans le respect des techniques traditionnelles alsaciennes, garantissant l'authenticité patrimoniale du bâtiment tout en apportant une étanchéité moderne. Les travaux ont été coordonnés avec les Architectes des Bâtiments de France pour assurer la conformité aux exigences du secteur protégé.",
+      "technicalDetails": [
+        "Tuiles plates Saint-Thomas 16*38",
+        "Technique Biberschwanz traditionnelle",
+        "Respect des normes ABF",
+        "Zinguerie sur-mesure en zinc naturel"
+      ],
+      "materials": [
+        "Tuile plate Saint-Thomas",
+        "Zinc naturel",
+        "Bois de charpente traditionnel"
+      ],
+      "duration": "3 semaines",
+      "featured": true,
+      "published": true
+    },
+    {
+      "id": "refection-toiture-joint-debout-prefa",
+      "slug": "refection-toiture-joint-debout-prefa",
+      "title": "Réfection toiture en joint debout PREFA",
+      "subtitle": "Complexité architecturale et performance",
+      "location": "Bas-Rhin",
+      "date": "2024",
+      "category": ["alu-prefa", "velux"],
+      "mainImage": "/realisations/prefa-joint-debout/main.jpg",
+      "gallery": [
+        {
+          "id": "1",
+          "url": "/realisations/prefa-joint-debout/avant-1.jpg",
+          "alt": "Structure avant travaux",
+          "type": "avant",
+          "order": 1
+        },
+        {
+          "id": "2",
+          "url": "/realisations/prefa-joint-debout/avant-2.jpg", 
+          "alt": "Vue d'ensemble avant",
+          "type": "avant",
+          "order": 2
+        },
+        {
+          "id": "3",
+          "url": "/realisations/prefa-joint-debout/avant-3.jpg",
+          "alt": "Détail architecture complexe",
+          "type": "avant", 
+          "order": 3
+        },
+        {
+          "id": "4",
+          "url": "/realisations/prefa-joint-debout/pendant-1.jpg",
+          "alt": "Installation support bois",
+          "type": "pendant",
+          "order": 4
+        },
+        {
+          "id": "5",
+          "url": "/realisations/prefa-joint-debout/apres-1.jpg",
+          "alt": "Toiture aluminium terminée",
+          "type": "apres",
+          "order": 5
+        },
+        {
+          "id": "6",
+          "url": "/realisations/prefa-joint-debout/apres-2.jpg",
+          "alt": "Vue finale avec Velux intégrés",
+          "type": "apres",
+          "order": 6
+        }
+      ],
+      "description": "Projet de haute technicité comprenant deux demi-tourelles (absides) à structure courbe, avec l'intégration de 4 fenêtres Velux sur un versant en pente. La complexité architecturale a nécessité la création d'un support en bois en deux couches croisées pour garantir une planimétrie parfaite. La couverture aluminium PREFA en joint debout offre une étanchéité optimale avec des rives courbes verticales et une lucarne à pans coupés \"casquette de gendarme\". Cette réalisation illustre notre maîtrise des techniques de traçage et d'agrafage sur des géométries complexes, associant performance technique et esthétique contemporaine.",
+      "technicalDetails": [
+        "Aluminium PREFA joint debout",
+        "Support bois double couche croisée",
+        "4 fenêtres Velux intégrées",
+        "Rives courbes verticales",
+        "Lucarne à pans coupés"
+      ],
+      "materials": [
+        "Aluminium PREFA",
+        "Bois lamellé-collé",
+        "Velux",
+        "Isolant biosourcé"
+      ],
+      "duration": "4 semaines",
+      "featured": true,
+      "published": true
+    },
+    {
+      "id": "creation-lucarnes-koenigshoffen",
+      "slug": "creation-lucarnes-koenigshoffen",
+      "title": "Création de lucarnes à Koenigshoffen",
+      "subtitle": "Apport de lumière et valorisation des combles",
+      "location": "Koenigshoffen, Strasbourg",
+      "date": "2024",
+      "category": ["velux", "zinguerie", "tuile-plate"],
+      "mainImage": "/realisations/lucarnes-koenigshoffen/main.jpg",
+      "gallery": [
+        {
+          "id": "1",
+          "url": "/realisations/lucarnes-koenigshoffen/avant.jpg",
+          "alt": "Toiture avant création des lucarnes",
+          "type": "avant",
+          "order": 1
+        },
+        {
+          "id": "2",
+          "url": "/realisations/lucarnes-koenigshoffen/apres.jpg",
+          "alt": "Lucarnes terminées et intégrées",
+          "type": "apres",
+          "order": 2
+        }
+      ],
+      "description": "Création de deux lucarnes traditionnelles alsaciennes pour l'aménagement de combles perdus. Ce projet a permis d'apporter la lumière naturelle nécessaire aux nouveaux espaces habitables tout en respectant l'architecture traditionnelle du quartier de Koenigshoffen. Les lucarnes ont été parfaitement intégrées à la toiture existante en tuiles plates, avec une zinguerie sur-mesure assurant une étanchéité parfaite. Les travaux incluent la modification de la charpente, la création des ouvertures et la finition complète avec raccordement étanche à la couverture existante.",
+      "technicalDetails": [
+        "2 lucarnes traditionnelles alsaciennes",
+        "Modification charpente existante", 
+        "Zinguerie zinc sur-mesure",
+        "Raccordement étanche tuiles plates"
+      ],
+      "materials": [
+        "Tuile plate traditionnelle",
+        "Zinc naturel",
+        "Bois de charpente",
+        "Membrane d'étanchéité"
+      ],
+      "duration": "2 semaines",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "renovation-toiture-tuile-ardoise-isolation",
+      "slug": "renovation-toiture-tuile-ardoise-isolation",
+      "title": "Rénovation toiture tuile-ardoise écaille et isolation",
+      "subtitle": "Rénovation complète avec isolation biosourcée",
+      "location": "Bas-Rhin",
+      "date": "2024",
+      "category": ["ardoise", "isolation"],
+      "mainImage": "/realisations/tuile-ardoise-isolation/main.jpg",
+      "gallery": [
+        {
+          "id": "1",
+          "url": "/realisations/tuile-ardoise-isolation/avant.jpg",
+          "alt": "Toiture tuile-ardoise dégradée",
+          "type": "avant",
+          "order": 1
+        },
+        {
+          "id": "2",
+          "url": "/realisations/tuile-ardoise-isolation/apres.jpg",
+          "alt": "Toiture rénovée avec isolation",
+          "type": "apres",
+          "order": 2
+        }
+      ],
+      "description": "Rénovation complète d'une toiture en tuile-ardoise écaille avec mise en œuvre d'une isolation biosourcée haute performance. Ce type de couverture, caractéristique de certaines régions, nécessite une expertise particulière pour la dépose et la repose des éléments. Les travaux ont inclus la révision complète de la charpente, l'installation d'une isolation en fibre de bois de 200mm d'épaisseur, et la repose de la couverture avec remplacement des éléments défaillants. Cette rénovation permet d'améliorer significativement les performances énergétiques tout en préservant l'esthétique traditionnelle.",
+      "technicalDetails": [
+        "Dépose/repose tuile-ardoise écaille",
+        "Isolation fibre de bois 200mm",
+        "Révision complète charpente",
+        "Membrane pare-vapeur"
+      ],
+      "materials": [
+        "Tuile-ardoise écaille",
+        "Fibre de bois",
+        "Membrane d'étanchéité",
+        "Pare-vapeur"
+      ],
+      "duration": "3 semaines",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "refection-toiture-isolation-laine-bois",
+      "slug": "refection-toiture-isolation-laine-bois",
+      "title": "Réfection toiture et isolation en laine de bois",
+      "subtitle": "Performance énergétique et matériaux biosourcés",
+      "location": "Strasbourg",
+      "date": "2024",
+      "category": ["tuile-mecanique", "isolation"],
+      "mainImage": "/realisations/refection-isolation-bois/main.jpg",
+      "gallery": [
+        {
+          "id": "1",
+          "url": "/realisations/refection-isolation-bois/avant.jpg",
+          "alt": "Toiture avant rénovation",
+          "type": "avant",
+          "order": 1
+        },
+        {
+          "id": "2",
+          "url": "/realisations/refection-isolation-bois/apres.jpg",
+          "alt": "Toiture rénovée avec isolation laine de bois",
+          "type": "apres",
+          "order": 2
+        }
+      ],
+      "description": "Rénovation complète de toiture avec mise en œuvre d'une isolation haute performance en laine de bois. Ce projet illustre notre engagement vers les matériaux biosourcés qui offrent d'excellentes performances thermiques et acoustiques. L'isolation en laine de bois, en plus de ses qualités écologiques, procure un excellent confort été comme hiver grâce à son déphasage thermique. Les travaux ont inclus la réfection complète de la couverture, l'amélioration de l'étanchéité et l'optimisation de la ventilation.",
+      "technicalDetails": [
+        "Isolation laine de bois 200mm",
+        "Réfection couverture complète",
+        "Amélioration étanchéité",
+        "Ventilation optimisée"
+      ],
+      "materials": [
+        "Laine de bois",
+        "Tuiles mécaniques",
+        "Membrane d'étanchéité",
+        "Pare-vapeur"
+      ],
+      "duration": "3 semaines",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "realisation-toit-zinc-velux",
+      "slug": "realisation-toit-zinc-velux",
+      "title": "Réalisation et isolation d'un toit en zinc et intégration de Velux",
+      "subtitle": "Modernité du zinc et apport de lumière naturelle",
+      "location": "Bas-Rhin",
+      "date": "2024",
+      "category": ["zinc", "velux", "isolation"],
+      "mainImage": "/realisations/zinc-velux/main.jpg",
+      "gallery": [
+        {
+          "id": "1",
+          "url": "/realisations/zinc-velux/avant.jpg",
+          "alt": "Structure avant travaux",
+          "type": "avant",
+          "order": 1
+        },
+        {
+          "id": "2",
+          "url": "/realisations/zinc-velux/pendant.jpg",
+          "alt": "Installation en cours",
+          "type": "pendant",
+          "order": 2
+        },
+        {
+          "id": "3",
+          "url": "/realisations/zinc-velux/apres.jpg",
+          "alt": "Toiture zinc avec Velux intégrés",
+          "type": "apres",
+          "order": 3
+        }
+      ],
+      "description": "Création d'une toiture moderne en zinc avec intégration parfaite de fenêtres Velux et mise en œuvre d'une isolation performante. Le zinc, matériau noble et durable, offre une esthétique contemporaine et une longévité exceptionnelle. L'intégration des Velux nécessite une maîtrise technique particulière pour garantir l'étanchéité parfaite des raccordements. Ce projet combine performance énergétique, durabilité et design architectural moderne.",
+      "technicalDetails": [
+        "Couverture zinc joint debout",
+        "Intégration Velux étanche",
+        "Isolation haute performance",
+        "Zinguerie sur-mesure"
+      ],
+      "materials": [
+        "Zinc naturel",
+        "Velux",
+        "Isolant biosourcé",
+        "Membrane d'étanchéité"
+      ],
+      "duration": "4 semaines",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "refection-totale-tuile-mecanique",
+      "slug": "refection-totale-tuile-mecanique",
+      "title": "Réfection totale de toiture en tuile mécanique à aspect plat",
+      "subtitle": "Esthétique traditionnelle et performance moderne",
+      "location": "Strasbourg",
+      "date": "2024",
+      "category": ["tuile-mecanique", "isolation"],
+      "mainImage": "/realisations/tuile-mecanique-plat/main.jpg",
+      "gallery": [
+        {
+          "id": "1",
+          "url": "/realisations/tuile-mecanique-plat/avant.jpg",
+          "alt": "Ancienne toiture dégradée",
+          "type": "avant",
+          "order": 1
+        },
+        {
+          "id": "2",
+          "url": "/realisations/tuile-mecanique-plat/apres.jpg",
+          "alt": "Nouvelle toiture tuiles mécaniques aspect plat",
+          "type": "apres",
+          "order": 2
+        }
+      ],
+      "description": "Réfection complète d'une toiture avec tuiles mécaniques à aspect plat, alliant l'esthétique des tuiles plates traditionnelles aux avantages techniques des tuiles mécaniques modernes. Ces tuiles offrent une pose plus rapide, une meilleure résistance aux intempéries et un excellent rapport qualité-prix. Le projet a inclus la révision complète de la charpente, l'amélioration de l'isolation et la mise en place d'un système de ventilation optimisé.",
+      "technicalDetails": [
+        "Tuiles mécaniques aspect plat",
+        "Révision charpente",
+        "Isolation renforcée",
+        "Ventilation sous-toiture"
+      ],
+      "materials": [
+        "Tuiles mécaniques",
+        "Isolant biosourcé",
+        "Liteaux traités",
+        "Écran de sous-toiture"
+      ],
+      "duration": "2 semaines",
+      "featured": false,
+      "published": true
+    },
+    {
+      "id": "verriere-modulaire-velux-extension-zinc",
+      "slug": "verriere-modulaire-velux-extension-zinc",
+      "title": "Création d'une verrière modulaire Velux sur extension zinc",
+      "subtitle": "Architecture moderne et apport de lumière exceptionnel",
+      "location": "Bas-Rhin",
+      "date": "2024",
+      "category": ["zinc", "velux"],
+      "mainImage": "/realisations/verriere-velux-zinc/main.jpg",
+      "gallery": [
+        {
+          "id": "1",
+          "url": "/realisations/verriere-velux-zinc/avant.jpg",
+          "alt": "Extension avant verrière",
+          "type": "avant",
+          "order": 1
+        },
+        {
+          "id": "2",
+          "url": "/realisations/verriere-velux-zinc/pendant.jpg",
+          "alt": "Installation structure verrière",
+          "type": "pendant",
+          "order": 2
+        },
+        {
+          "id": "3",
+          "url": "/realisations/verriere-velux-zinc/apres.jpg",
+          "alt": "Verrière modulaire terminée",
+          "type": "apres",
+          "order": 3
+        }
+      ],
+      "description": "Création d'une verrière modulaire Velux sur une extension contemporaine en zinc. Cette réalisation d'exception combine la modernité du zinc avec la performance des solutions Velux modulaires pour créer un espace de vie baigné de lumière naturelle. La verrière modulaire permet une grande flexibilité architecturale et un apport lumineux optimal. L'intégration parfaite sur l'extension zinc nécessite une maîtrise technique avancée des raccordements étanches.",
+      "technicalDetails": [
+        "Verrière modulaire Velux",
+        "Extension zinc joint debout",
+        "Raccordements étanches complexes",
+        "Structure porteuse renforcée"
+      ],
+      "materials": [
+        "Système Velux modulaire",
+        "Zinc naturel",
+        "Structure aluminium",
+        "Joints d'étanchéité"
+      ],
+      "duration": "3 semaines",
+      "featured": true,
+      "published": true
+    },
+    {
+      "id": "remplacement-velux-illkirch",
+      "slug": "remplacement-velux-illkirch",
+      "title": "Remplacement de Velux à Illkirch-Graffenstaden",
+      "subtitle": "Rénovation et amélioration de l'éclairage naturel",
+      "location": "Illkirch-Graffenstaden",
+      "date": "2024",
+      "category": ["velux"],
+      "mainImage": "/realisations/velux-illkirch/main.jpg",
+      "gallery": [
+        {
+          "id": "1",
+          "url": "/realisations/velux-illkirch/avant.jpg",
+          "alt": "Anciens Velux à remplacer",
+          "type": "avant",
+          "order": 1
+        },
+        {
+          "id": "2",
+          "url": "/realisations/velux-illkirch/apres.jpg",
+          "alt": "Nouveaux Velux installés",
+          "type": "apres",
+          "order": 2
+        }
+      ],
+      "description": "Remplacement de fenêtres de toit Velux vieillissantes à Illkirch-Graffenstaden. Cette intervention a permis d'améliorer significativement les performances énergétiques et l'étanchéité des ouvertures de toit. Les nouveaux Velux, dotés des dernières technologies, offrent une meilleure isolation thermique, un confort d'utilisation accru et une durabilité renforcée. Les travaux ont été réalisés avec un soin particulier pour préserver l'intégrité de la couverture existante.",
+      "technicalDetails": [
+        "Remplacement Velux dernière génération",
+        "Amélioration performance énergétique",
+        "Raccordements étanches",
+        "Préservation couverture existante"
+      ],
+      "materials": [
+        "Velux nouvelle génération",
+        "Kit d'étanchéité",
+        "Habillage intérieur",
+        "Joints d'étanchéité"
+      ],
+      "duration": "1 semaine",
+      "featured": false,
+      "published": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/PROJET AI SSD/formdetoit/formdetoit-nextjs/src/lib/**)",
+      "Read(//c/PROJET AI SSD/formdetoit/formdetoit-nextjs/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

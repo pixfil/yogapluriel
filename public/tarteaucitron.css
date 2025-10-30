@@ -1,0 +1,202 @@
+/**
+ * Tarteaucitron.js - Styling personnalisé FormDeToit
+ *
+ * Design moderne avec glassmorphism + couleurs brand
+ */
+
+/* ========================================
+   BANNIÈRE PRINCIPALE (alerte grande)
+   ======================================== */
+
+#tarteaucitronAlertBig {
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(10px) !important;
+  border: none !important;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1) !important;
+  padding: 2rem !important;
+  border-radius: 0 !important;
+  max-width: 100% !important;
+}
+
+#tarteaucitronAlertBig #tarteaucitronDisclaimerAlert {
+  color: #1e293b !important;
+  font-size: 0.95rem !important;
+  line-height: 1.6 !important;
+  margin-bottom: 1.5rem !important;
+}
+
+/* ========================================
+   BOUTONS
+   ======================================== */
+
+#tarteaucitronAlertBig button {
+  border: none !important;
+  padding: 0.75rem 2rem !important;
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
+  border-radius: 0.5rem !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  margin: 0.5rem !important;
+}
+
+/* Bouton "Tout accepter" */
+#tarteaucitronAlertBig #tarteaucitronAllAllowed,
+#tarteaucitronAlertBig .tarteaucitronAllow {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%) !important;
+  color: white !important;
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3) !important;
+}
+
+#tarteaucitronAlertBig #tarteaucitronAllAllowed:hover,
+#tarteaucitronAlertBig .tarteaucitronAllow:hover {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(245, 158, 11, 0.4) !important;
+}
+
+/* Bouton "Personnaliser" */
+#tarteaucitronAlertBig #tarteaucitronPersonalize,
+#tarteaucitronAlertBig .tarteaucitronDeny {
+  background: rgba(148, 163, 184, 0.1) !important;
+  color: #475569 !important;
+  border: 1px solid #cbd5e1 !important;
+}
+
+#tarteaucitronAlertBig #tarteaucitronPersonalize:hover,
+#tarteaucitronAlertBig .tarteaucitronDeny:hover {
+  background: rgba(148, 163, 184, 0.2) !important;
+  border-color: #94a3b8 !important;
+}
+
+/* ========================================
+   ICÔNE FLOTTANTE
+   ======================================== */
+
+#tarteaucitronIcon {
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 50% !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  width: 50px !important;
+  height: 50px !important;
+  bottom: 20px !important;
+  left: 20px !important;
+  transition: all 0.3s ease !important;
+}
+
+#tarteaucitronIcon:hover {
+  transform: scale(1.1) !important;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* ========================================
+   PANNEAU DES SERVICES
+   ======================================== */
+
+#tarteaucitron {
+  background: rgba(255, 255, 255, 0.98) !important;
+  backdrop-filter: blur(15px) !important;
+  border-radius: 1rem !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15) !important;
+  max-width: 600px !important;
+  margin: 2rem auto !important;
+}
+
+#tarteaucitron #tarteaucitronClosePanel {
+  background: #f1f5f9 !important;
+  color: #475569 !important;
+  border-radius: 0.5rem !important;
+  padding: 0.5rem 1rem !important;
+  font-weight: 600 !important;
+}
+
+#tarteaucitron #tarteaucitronClosePanel:hover {
+  background: #e2e8f0 !important;
+}
+
+/* ========================================
+   LISTE DES SERVICES
+   ======================================== */
+
+.tarteaucitronLine {
+  background: #f8fafc !important;
+  border-radius: 0.75rem !important;
+  padding: 1rem !important;
+  margin: 0.75rem 0 !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+.tarteaucitronName {
+  color: #1e293b !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+}
+
+.tarteaucitronDescription {
+  color: #64748b !important;
+  font-size: 0.875rem !important;
+  line-height: 1.5 !important;
+}
+
+/* ========================================
+   RESPONSIVE MOBILE
+   ======================================== */
+
+@media (max-width: 768px) {
+  #tarteaucitronAlertBig {
+    padding: 1.5rem 1rem !important;
+  }
+
+  #tarteaucitronAlertBig button {
+    width: 100% !important;
+    margin: 0.5rem 0 !important;
+  }
+
+  #tarteaucitron {
+    margin: 1rem !important;
+    max-width: calc(100% - 2rem) !important;
+  }
+
+  #tarteaucitronIcon {
+    width: 45px !important;
+    height: 45px !important;
+    bottom: 15px !important;
+    left: 15px !important;
+  }
+}
+
+/* ========================================
+   ANIMATIONS
+   ======================================== */
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+#tarteaucitronAlertBig {
+  animation: slideInFromBottom 0.5s ease-out !important;
+}
+
+/* ========================================
+   ACCESSIBILITÉ
+   ======================================== */
+
+#tarteaucitronAlertBig button:focus,
+#tarteaucitron button:focus {
+  outline: 2px solid #f59e0b !important;
+  outline-offset: 2px !important;
+}
+
+/* Contraste amélioré pour les lecteurs d'écran */
+.tarteaucitronMainLine {
+  font-weight: 600 !important;
+  color: #0f172a !important;
+}
